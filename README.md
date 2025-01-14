@@ -147,7 +147,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Built with .NET 8.0
 - Uses Npgsql for PostgreSQL connectivity
-- Inspired by the need for simple, reliable database backups
+- Inspired by the need for simple, reliable database backups for my [Davinci Resolve Project Server](https://www.blackmagicdesign.com/products/davinciresolve/collaboration)
 
 ## Support
 
