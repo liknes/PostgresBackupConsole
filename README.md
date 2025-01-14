@@ -25,12 +25,15 @@ A .NET Core console application that automates PostgreSQL database backups with 
 2. Configure the application settings in `appsettings.json`
 3. Build the application:
 
-```dotnet build```
+```
+dotnet build
+```
 
 ## Configuration
 
 Update the `appsettings.json` file with your PostgreSQL settings:
 
+```
 json
 {
 "PostgresSettings": {
@@ -44,6 +47,7 @@ json
 "BackupPath": "C:\\Your\\Backup\\Path"
 }
 }
+```
 
 ### Configuration Parameters
 
@@ -63,8 +67,9 @@ json
 ### Manual Execution
 
 Run the application from the command line:
-bash
+```
 dotnet PostgresBackupConsole.dll
+```
 
 ### Task Scheduler Setup
 
@@ -119,10 +124,11 @@ PostgresBackupConsole/
 └── README.md
 
 ### Building from Source
-bash
+```
 dotnet restore
 dotnet build
 dotnet publish -c Release
+```
 
 ## Contributing
 
