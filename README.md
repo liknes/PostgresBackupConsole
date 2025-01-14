@@ -15,7 +15,7 @@ A .NET Core console application that automates PostgreSQL database backups with 
 
 ## Prerequisites
 
-- .NET 6.0 or later
+- .NET 8.0 or later
 - PostgreSQL installed with pg_dump utility available in PATH
 - Appropriate PostgreSQL user permissions for backup operations
 
@@ -145,7 +145,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Built with .NET 6.0
+- Built with .NET 8.0
 - Uses Npgsql for PostgreSQL connectivity
 - Inspired by the need for simple, reliable database backups
 
