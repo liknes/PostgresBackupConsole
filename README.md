@@ -50,7 +50,6 @@ json
 ```
 
 ### Configuration Parameters
-```
 | Parameter | Description | Default |
 |-----------|-------------|---------|
 | Host | PostgreSQL server hostname | localhost |
@@ -61,7 +60,6 @@ json
 | BackupType | Type of backup to perform | Full |
 | BackupRetentionDays | Number of days to keep backups | 7 |
 | BackupPath | Directory where backups will be stored | - |
-```
 
 ## Usage
 
@@ -114,6 +112,7 @@ All errors are logged to both console and log file.
 ## Development
 
 ### Project Structure
+```
 PostgresBackupConsole/
 ├── Models/
 │ └── PostgresSettings.cs
@@ -123,6 +122,7 @@ PostgresBackupConsole/
 ├── Program.cs
 ├── appsettings.json
 └── README.md
+```
 
 ### Building from Source
 ```
