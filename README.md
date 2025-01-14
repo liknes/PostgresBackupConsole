@@ -36,16 +36,16 @@ Update the `appsettings.json` file with your PostgreSQL settings:
 ```
 json
 {
-"PostgresSettings": {
-"Host": "localhost",
-"Port": 5432,
-"Username": "postgres",
-"Password": "your_password",
-"Database": "postgres",
-"BackupType": "Full",
-"BackupRetentionDays": 7,
-"BackupPath": "C:\\Your\\Backup\\Path"
-}
+  "PostgresSettings": {
+    "Host": "localhost",
+    "Port": 5432,
+    "Username": "postgres",
+    "Password": "your_password",
+    "Database": "postgres",
+    "BackupType": "Full",
+    "BackupRetentionDays": 7,
+    "BackupPath": "C:\\Your\\Backup\\Path"
+  }
 }
 ```
 
