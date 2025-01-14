@@ -25,7 +25,7 @@ A .NET Core console application that automates PostgreSQL database backups with 
 2. Configure the application settings in `appsettings.json`
 3. Build the application:
 
-bash
+```bash
 dotnet build
 
 ## Configuration
