@@ -50,7 +50,7 @@ json
 ```
 
 ### Configuration Parameters
-
+```
 | Parameter | Description | Default |
 |-----------|-------------|---------|
 | Host | PostgreSQL server hostname | localhost |
@@ -61,6 +61,7 @@ json
 | BackupType | Type of backup to perform | Full |
 | BackupRetentionDays | Number of days to keep backups | 7 |
 | BackupPath | Directory where backups will be stored | - |
+```
 
 ## Usage
 
