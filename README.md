@@ -1,6 +1,6 @@
 # PostgreSQL Backup Console
 
-A .NET Core console application that automates PostgreSQL database backups with configurable settings, logging, and retention policies. Perfect for scheduling regular backups of your PostgreSQL databases.
+A .NET Core console application that automates [PostgreSQL](https://www.postgresql.org/download/windows/) database backups with configurable settings, logging, and retention policies. Perfect for scheduling regular backups of your PostgreSQL databases.
 
 ## Features
 
@@ -13,8 +13,12 @@ A .NET Core console application that automates PostgreSQL database backups with 
 - ⚡ Asynchronous operations
 - ❌ Robust error handling
 
-## Prerequisites
+## Tested and found to work with:
 
+- PostreSQL 13
+- PostreSQL 17
+
+## Prerequisites
 - .NET 8.0 or later
 - PostgreSQL installed with pg_dump utility available in PATH
 - Appropriate PostgreSQL user permissions for backup operations
