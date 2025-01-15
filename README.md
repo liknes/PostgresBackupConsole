@@ -121,7 +121,8 @@ PostgresBackupConsole/
 │ └── PostgresService.cs
 ├── Program.cs
 ├── appsettings.json
-└── README.md
+├── README.md
+└-- MIT License
 ```
 
 ### Building from Source
